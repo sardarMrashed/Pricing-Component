@@ -1,0 +1,133 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "karla";
+  font-size: 16px;
+  font-weight: 400;
+}
+h2,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+#cards {
+  box-shadow: 4px 4px 5px 1px #646060;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#main-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+ #bottom-section {
+  /* width: 100%;
+  height: 55%; */
+  color: white;
+  display: flex;
+ flex-direction: column; 
+} 
+
+#section-left {
+  background-color: rgb(43, 179, 177);
+  padding: 25px;
+  flex-basis: 50%;
+}
+
+ #section-right { 
+  padding: 25px;
+  flex-basis: 50%;
+  background-color: rgb(74, 190, 189);
+} 
+
+#main-section h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+#main-section h4 {
+  color: hsl(71, 86%, 53%);
+  margin-bottom: 10px;
+}
+
+#main-section p {
+  color: hsl(219, 23%, 85%);
+  margin-bottom: 20px;
+}
+#section-left h4 {
+  margin-bottom: 25px;
+}
+#section-left p {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+button {
+  font-family: "karla", sans-serif;
+  background-color: rgb(191, 223, 51);
+  border-radius: 30px;
+  color: white;
+  padding: 10px 62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #efd53f;
+  transform: scale(1.02);
+}
+#price-container {
+  font-family: "karla", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: relative;
+}
+#Price-frequency {
+  font-size: 0.8rem;
+  font-weight: 100;
+  opacity: 0.7;
+  margin-left: 8px;
+  position: relative;
+}
+#Price-frequency,
+#price-container {
+  display: inline-block;
+  top: -3px;
+}
+/* #section-right h4 {
+  padding: 10px;
+} */
+ul {
+  padding: 10px;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+@media (min-width: 576px) {
+  #cards {
+    width: 550px;
+    height: 400px;
+  }
+  #bottom-section {
+    flex-direction: row;
+  }
+}
+  
+ 
+
